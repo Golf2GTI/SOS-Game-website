@@ -67,6 +67,7 @@ ul {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 .header__menu {
     display: flex;
@@ -176,6 +177,7 @@ ul {
     background-image: url(../images/bg\ image\ 2\ \(2\).png);
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
 .about__images {
     display: flex;
@@ -278,6 +280,7 @@ ul {
     background-size: cover;
     padding-top: 350px;
     padding-bottom: 450px;
+    width: 100%;
 }
 
 
@@ -335,6 +338,7 @@ ul {
     background-image: url(../images/Group2.png);
     background-position: center;
     background-size: cover;
+    width: 100%;
 }
 .system__heading {
     text-align: center;
@@ -401,6 +405,7 @@ ul {
 .quotes__block {
     background-image: url(../images/bgimage4343.png);
     background-size: cover;
+    width: 100%;
 }
 .quotes {
     padding: 160px 0px;
@@ -1002,10 +1007,12 @@ ul {
         padding: 200px 0px 100px 0px;
         background-image: url(../images/bgimage3mobile.png);
         background-size: cover;
+        width: 100%;
     }
     .about {
         background-image: url(../images/bgimage2mobile.png);
         background-size: cover;
+        width: 100%;
     }
     .about__block {
         padding: 0px;
@@ -1014,6 +1021,7 @@ ul {
         background-image: url(../images/bgimage4mobile.png);
         background-size: cover;
         padding: 70px 0px 230px 0px;
+        width: 100%;
     }
     .system__what {
         font-size: 21px;
@@ -1027,15 +1035,14 @@ ul {
         flex-wrap: wrap;
         margin: 0px;
         background-image: none;
-        width: 340px;
+        width: 370px;
         height: 320px;
-        border: 1px solid rgba(151, 151, 151, .2);
     }
     .system__requirements__item {
         display: flex;
         flex-direction: column;
         box-sizing: content-box;
-        width: 158px;
+        width: 120px;
         padding: 5px;
         margin: 0px 0px 0px 0px;
         border: 1px solid rgba(151, 151, 151, .2);
@@ -1047,23 +1054,23 @@ ul {
         font-size: 14px;
     }
     .system li:nth-child(2) {
-        width: 158px;
+        width: 120px;
         padding: 5px;
     }
     
     .system li:nth-child(3) {
-        width: 158px;
+        width: 120px;
 
         padding: 5px;
     } 
     .system li:nth-child(4) {
-        width: 158px;
+        width: 120px;
         margin: 0px 0px 0px 0px;
         padding: 5px;
 
     }
     .system li:nth-child(5) {
-        width: 340px;
+        width: 252px;
         margin: 0px;
         padding: 5px;
     }
@@ -1074,6 +1081,7 @@ ul {
     .quotes__block {
         background-image: url(../images/bgimage5mobile.png);
         background-size: cover;
+        width: 100%;
     }
     .quotes__description {
         margin: 0px;
@@ -1121,11 +1129,11 @@ ul {
         justify-content: flex-end;
     }
     .newsletter__email__form {
-        width: 300px;
+        width: 250px;
         margin-bottom: 30px;
     }
     .newsletter__subscribe {
-        width: 340px;
+        width: 290px;
     }
     .footer__menu {
         flex-wrap: wrap;
@@ -1151,7 +1159,13 @@ ul {
         margin: 25px 0px;
     }
     .policy__item {
-        width: 350px;
+        width: 285px;
         text-align: center;
+    }
+    .quotes__date {
+        margin: 0px;
+    }
+    .quotes__text {
+        margin-bottom: 20px;
     }
 }
